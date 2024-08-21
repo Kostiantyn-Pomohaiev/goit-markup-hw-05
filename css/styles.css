@@ -583,6 +583,10 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
 }
 
 .backdrop.is-open {
@@ -600,14 +604,35 @@ a {
     height: 24px;
     border: 1px solid rgba(0,0,0,0.1);
     stroke: #000;
+    line-height: 0;
+    padding: 0;
+    transition: stroke 300ms linear;
 }
 
 .close-icon {
     color: currentColor;
 }
 
+.close-icon:hover,
+.close-icon:focus {
+    fill: #e7e9fc;
+}
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    stroke: white;
+    background-color: #404bbf;
+    border: none;
 }
 
