@@ -570,8 +570,9 @@ a {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transition: visibility 300ms linear, opacity 300ms linear, pointer-events 300ms linear;
 }
-
+ 
 
 .modal {
     position: absolute;
@@ -588,5 +589,25 @@ a {
     visibility: visible;
     pointer-events: auto;
     opacity: 1;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0,0,0,0.1);
+    stroke: #000;
+}
+
+.close-icon {
+    color: currentColor;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    stroke: white;
 }
 
