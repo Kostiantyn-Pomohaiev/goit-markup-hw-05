@@ -578,17 +578,18 @@ a {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
+    padding-left: 16px;
 }
 
 .form-btn {
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
