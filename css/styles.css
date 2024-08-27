@@ -560,6 +560,11 @@ a {
     padding-left: 80px;
 }
 
+.form-footer {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-input {
     border: 1px solid #fff;
     border-radius: 4px;
