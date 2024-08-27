@@ -611,7 +611,7 @@ a {
     margin-left: 16px;
 }
 
-.input-psevdo::placeholder { 
+.footer-input::placeholder { 
     fill: #ffffff;
 
 }
